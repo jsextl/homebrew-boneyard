@@ -1,26 +1,5 @@
-# Homebrew/boneyard
-This repository contains formulae that were removed from other repositories.
-Common reasons for retiring formulae to the boneyard include lack of upstream
-maintenance or problems integrating with Homebrew's packaging requirements.
-Broken formulae are migrated here as an alternative to allowing hard work and
-valuable knowledge to fade into git history.
+# Homebrew/boneyard (deprecated)
 
-With a little work, some of these formulae could be restored to the main
-repositories, but they are not actively maintained or kept up-to-date in this
-repository.
+These formulae were those removed from other repositories.
 
-Welcome to the boneyard, perhaps you can dig up something interesting!
-
-## How do I install these formulae?
-`brew install homebrew/boneyard/<formula>`
-
-Or `brew tap homebrew/boneyard` and then `brew install <formula>`.
-
-Or install via URL (which will not receive updates):
-
-```
-brew install https://raw.githubusercontent.com/Homebrew/homebrew-boneyard/master/<formula>.rb
-```
-
-## Documentation
-`brew help`, `man brew` or check [Homebrew's documentation](http://docs.brew.sh).
+This tap was deprecated because Homebrew 1.1.12 provides the commands necessary to show old versions of formulae and because this tap required maintenance overhead and had poor usability.
